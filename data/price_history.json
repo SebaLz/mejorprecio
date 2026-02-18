@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-02-18T04:29:01.115673+00:00",
+  "updated_at": "2026-02-18T04:29:27.083862+00:00",
   "products": {
     "8d3080116cc72b5ab1caeac845e69f7e0fb4396f": {
       "id": "8d3080116cc72b5ab1caeac845e69f7e0fb4396f",
@@ -720,6 +720,294 @@
         }
       ],
       "last_seen_at": "2026-02-18T04:29:01.115673+00:00"
+    },
+    "c3d086d9793ebb0413e1ee5b3fa05a38ea25bf6a": {
+      "id": "c3d086d9793ebb0413e1ee5b3fa05a38ea25bf6a",
+      "nombre": "PLACA DE VIDEO GIGABYTE RTX 5070TI EAGLE OC 16GB",
+      "tienda": "Hard Vision",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1271998146",
+      "imagen": "https://static.nb.com.ar/i/nb_PLACA-DE-VIDEO-GIGABYTE-RTX-5070TI-EAGLE-OC-16GB_ver_220e93b89dc1462ad0ed5c8df555582a.png",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:27.083862+00:00",
+          "precio": 1843848.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
+    },
+    "1cc84778a954884d821944410c243c1ab2c6b8e6": {
+      "id": "1cc84778a954884d821944410c243c1ab2c6b8e6",
+      "nombre": "PLACA DE VIDEO MSI RTX 5070 TI VENTUS 3X OC 16GB GDDR7",
+      "tienda": "SilverHard",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-704211617",
+      "imagen": "https://silverhard.com/wp-content/uploads/2025/08/600-38.avif",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:27.083862+00:00",
+          "precio": 1858779.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
+    },
+    "0371f583cb9b18e6e4492d9de57de2f377334c07": {
+      "id": "0371f583cb9b18e6e4492d9de57de2f377334c07",
+      "nombre": "PLACA DE PLACA DE VIDEO GEFORCE RTX 5070 TI 16GB MSI SHADOW 3X OC",
+      "tienda": "Full H4rd",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1621799472",
+      "imagen": "https://www.fullh4rd.com.ar/img/productos/3/placa-de-video-geforce-rtx-5070-ti-16gb-msi-shadow-3x-oc-0.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:27.083862+00:00",
+          "precio": 1862000.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
+    },
+    "5bb014e4dea207dc39dad58ea469b73bf54cc9e8": {
+      "id": "5bb014e4dea207dc39dad58ea469b73bf54cc9e8",
+      "nombre": "PLACA DE VIDEO GEFORCE RTX 5070 TI 16GB MSI SHADOW 3X OC",
+      "tienda": "Xt-PC",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1342096025",
+      "imagen": "https://xt-pc.com.ar/img/productos/3/VGA2846.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:27.083862+00:00",
+          "precio": 1862000.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
+    },
+    "6b2bdd53abeb63cdc9e2028e052d258be034f38d": {
+      "id": "6b2bdd53abeb63cdc9e2028e052d258be034f38d",
+      "nombre": "VGA MSI VENTUS 3X OC RTX 5070 TI 16GB",
+      "tienda": "HardCore",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-2038046878",
+      "imagen": "https://i0.wp.com/hardcorecomputacion.com.ar/wp-content/uploads/2025/03/912-V531-092-2.jpg?resize=300%2C300&ssl=1",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:27.083862+00:00",
+          "precio": 1908550.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
+    },
+    "04c1b2f2462a90b9beeeecaa85e09a748285ec49": {
+      "id": "04c1b2f2462a90b9beeeecaa85e09a748285ec49",
+      "nombre": "PLACA DE VIDEO MSI RTX 5070 TI SHADOW 3X OC 16GB GDDR7",
+      "tienda": "SilverHard",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-350526676",
+      "imagen": "https://silverhard.com/wp-content/uploads/2025/08/1024-2025-08-25T003203.334.avif",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:27.083862+00:00",
+          "precio": 1913264.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
+    },
+    "2f54091a65c438486ffe9d294effb3c23e2f37b4": {
+      "id": "2f54091a65c438486ffe9d294effb3c23e2f37b4",
+      "nombre": "PLACA DE PLACA DE VIDEO GEFORCE RTX 5070 TI 16GB GIGABYTE EAGLE OC ICE SFF",
+      "tienda": "Full H4rd",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1621800556",
+      "imagen": "https://www.fullh4rd.com.ar/img/productos/3/placa-de-video-geforce-rtx-5070-ti-16gb-gigabyte-eagle-oc-ice-sff-0.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:27.083862+00:00",
+          "precio": 1937690.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
+    },
+    "108f1dc1e0d428f8cbeafb16cd3b90e011e60eaa": {
+      "id": "108f1dc1e0d428f8cbeafb16cd3b90e011e60eaa",
+      "nombre": "PLACA DE VIDEO GIGABYTE RTX 5070 TI GAMING OC 16GB GDDR7",
+      "tienda": "Megasoft",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1961783826",
+      "imagen": "https://mla-s1-p.mlstatic.com/638554-MLA99938306273_112025-AB.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:27.083862+00:00",
+          "precio": 1943370.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
+    },
+    "8a27afef4c27c30962515da8d60afbfa4154de2a": {
+      "id": "8a27afef4c27c30962515da8d60afbfa4154de2a",
+      "nombre": "PLACA DE VIDEO GIGABYTE RTX 5070TI EAGLE OC 16GB",
+      "tienda": "Gaming Point",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/47448270",
+      "imagen": "https://static.nb.com.ar/i/nb_PLACA-DE-VIDEO-GIGABYTE-RTX-5070TI-EAGLE-OC-16GB_ver_220e93b89dc1462ad0ed5c8df555582a.png",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:27.083862+00:00",
+          "precio": 1944773.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
+    },
+    "4ef41827ee00296344d165c5737354e079fb6c32": {
+      "id": "4ef41827ee00296344d165c5737354e079fb6c32",
+      "nombre": "PLACA DE VIDEO GIGABYTE RTX 5070 TI EAGLE ICE SFF 16GB OC",
+      "tienda": "Crosshair Gaming",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1638615282",
+      "imagen": "https://www.air-intra.com/imgart/215140.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:27.083862+00:00",
+          "precio": 1946648.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
+    },
+    "f86733b5b092f7689f73c9aa6a1ee1f5cb719d35": {
+      "id": "f86733b5b092f7689f73c9aa6a1ee1f5cb719d35",
+      "nombre": "PLACA DE VIDEO GIGABYTE RTX 5070 TI EAGLE 16GB OC",
+      "tienda": "Click Gaming",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/2085315453",
+      "imagen": "https://statics.qloud.ar/298/thumb_29-07-2025-09-07-24_diseo.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:27.083862+00:00",
+          "precio": 1951495.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
+    },
+    "345fec4de43a3b991920b00e7ace1814bd549106": {
+      "id": "345fec4de43a3b991920b00e7ace1814bd549106",
+      "nombre": "PLACA DE VIDEO GIGABYTE RTX 5070TI EAGLE ICE 16GB",
+      "tienda": "Hard Vision",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/446553564",
+      "imagen": "https://static.nb.com.ar/i/nb_PLACA-DE-VIDEO-GIGABYTE-RTX-5070TI-EAGLE-OC-ICE-16GB_ver_64af49d371091352e5037fba3bc63094.png",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:27.083862+00:00",
+          "precio": 1952473.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
+    },
+    "eb4f98828d8e168cdc51e53b46f579060f53be9a": {
+      "id": "eb4f98828d8e168cdc51e53b46f579060f53be9a",
+      "nombre": "PLACA DE VIDEO GIGABYTE RTX 5070TI EAGLE OC 16GB",
+      "tienda": "Megasoft",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-986797527",
+      "imagen": "https://statics.qloud.com.ar/124/thumb_13-11-2025-10-11-23_gemo1.png",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:27.083862+00:00",
+          "precio": 1957527.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
+    },
+    "6e7e34f83cf7d840c967f4a4d25e37e1e08f127b": {
+      "id": "6e7e34f83cf7d840c967f4a4d25e37e1e08f127b",
+      "nombre": "PLACA DE VIDEO ZOTAC RTX 5070TI SOLID OC 16GB GDDR7",
+      "tienda": "AuraGamer",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-1068350236",
+      "imagen": "https://i3.wp.com/static.nb.com.ar/i/nb_PLACA-DE-VIDEO-ZOTAC-RTX-5070TI-16GB-SOLID-OC-GDDR7_export_d663e7818f53dd28ede73eff77a19519.png?ssl=1",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:27.083862+00:00",
+          "precio": 1987488.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
+    },
+    "1ffd8e50ca5cbd1c4a157c6928d47e923b17a4d1": {
+      "id": "1ffd8e50ca5cbd1c4a157c6928d47e923b17a4d1",
+      "nombre": "PLACA DE VIDEO GIGABYTE EAGLE ICE RTX 5070 TI 16GB OC SFF",
+      "tienda": "Amonpul Team",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-1358370578",
+      "imagen": "https://amonpul.com.ar/assets/uploads/producto-foto-1265.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:27.083862+00:00",
+          "precio": 1989031.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
+    },
+    "28043014a30f06a49ab69362ac12e278dbd8530e": {
+      "id": "28043014a30f06a49ab69362ac12e278dbd8530e",
+      "nombre": "PLACA DE VIDEO GIGABYTE RTX 5070TI GAMING OC 16GB",
+      "tienda": "AuraGamer",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-2117967718",
+      "imagen": "https://i3.wp.com/static.nb.com.ar/i/nb_PLACA-DE-VIDEO-GIGABYTE-RTX-5070TI-GAMING-OC-16GB_export_b8ebbd9e630de159368f7bcd5157db81.png?ssl=1",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:27.083862+00:00",
+          "precio": 1989680.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
+    },
+    "e673b968c42ea8b82cdb55b16abc92942b708e1c": {
+      "id": "e673b968c42ea8b82cdb55b16abc92942b708e1c",
+      "nombre": "VIDEO GEFORCE GIGABYTE EAGLE ICE RTX 5070 TI 16GB OC",
+      "tienda": "Dinobyte",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-113489436",
+      "imagen": "https://dinobyte.ar/wp-content/uploads/Video-Geforce-Gigabyte-Eagle-Ice-RTX-5070-TI-OC.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:27.083862+00:00",
+          "precio": 1989840.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
+    },
+    "63dc6f18da419de786a16cd56d7741c2dba32c1f": {
+      "id": "63dc6f18da419de786a16cd56d7741c2dba32c1f",
+      "nombre": "PLACA DE VIDEO ASUS RTX 5070TI TUF GAMING OC 16GB GDDR7",
+      "tienda": "WIZ TECH",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/777188075",
+      "imagen": "https://wiztech.com.ar/assets/images/products/placa_video/5070tituf_a.png",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:27.083862+00:00",
+          "precio": 2008000.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
     }
   }
 }
