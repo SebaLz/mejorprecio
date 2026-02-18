@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Ofertas Gaming</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="glass-header">
+            <div class="header-content">
+                <h1><i class="fas fa-gamepad"></i> Buscador de Ofertas Gaming</h1>
+                <p class="subtitle">Compara precios en PreciosGamer y HardGamers</p>
+            </div>
+        </header>
+
+        <div class="search-section glass-card">
+            <div class="search-box-wrapper">
+                <div class="search-box">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="searchInput" placeholder="Buscar productos (ej: RTX 5070 Ti, Ryzen 5, etc.)" autocomplete="off" />
+                    <div class="search-actions">
+                        <button id="alertToggleBtn" class="btn-alert-toggle" title="Agregar o quitar esta busqueda de alertas">
+                            <i class="fa-regular fa-star"></i>
+                            <span>Alertar</span>
+                        </button>
+                        <button id="searchBtn" class="btn-primary">
+                            <i class="fas fa-search"></i>
+                            <span>Buscar</span>
+                        </button>
+                    </div>
+                </div>
+                <div id="searchHistory" class="search-history hidden">
+                    <div class="history-header">
+                        <span><i class="fas fa-clock"></i> Busquedas recientes</span>
+                        <button id="clearHistory" class="btn-clear-history" title="Limpiar historial">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                    <div id="historyList" class="history-list"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="homeAlertsBar" class="home-alerts-bar glass-card">
+            <div class="home-alerts-info">
+                <div class="home-alerts-title">
+                    <i class="fas fa-bell"></i>
+                    <span id="homeAlertsCount">0 alertas activas</span>
+                </div>
+                <div id="homeAlertsStatus" class="home-alerts-status">Todavia no se detectaron bajadas.</div>
+            </div>
+            <button id="checkAlertsBtn" class="btn-check-alerts">
+                <i class="fas fa-rotate"></i>
+                <span>Chequear alertas ahora</span>
+            </button>
+        </div>
+
+        <div id="alertsSection" class="alerts-section glass-card hidden">
+            <div class="alerts-header-row">
+                <h2><i class="fas fa-bell"></i> Alertas</h2>
+                <button id="clearAlerts" class="btn-clear-history" title="Limpiar alertas detectadas">
+                    <i class="fas fa-trash"></i>
+                </button>
+            </div>
+            <div class="alerts-panels">
+                <div class="alerts-panel">
+                    <h3>Busquedas seguidas</h3>
+                    <div id="watchedQueries" class="alert-list"></div>
+                </div>
+                <div class="alerts-panel">
+                    <h3>Bajadas detectadas (top 15)</h3>
+                    <div id="alertsList" class="alert-list"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="loading" class="loading hidden glass-card">
+            <div class="spinner"></div>
+            <p>Buscando ofertas...</p>
+        </div>
+
+        <div id="results" class="results hidden">
+            <div class="results-header glass-card">
+                <div class="stats">
+                    <p id="statsText"></p>
+                </div>
+
+                <div class="controls-bar">
+                    <div class="tabs">
+                        <button class="tab-btn active" data-tab="todos">
+                            <i class="fas fa-th"></i> Todos
+                        </button>
+                        <button class="tab-btn" data-tab="preciosgamer">
+                            <i class="fas fa-tag"></i> PreciosGamer
+                        </button>
+                        <button class="tab-btn" data-tab="hardgamers">
+                            <i class="fas fa-shopping-cart"></i> HardGamers
+                        </button>
+                    </div>
+
+                    <div class="view-controls">
+                        <button class="view-btn active" data-view="grid" title="Vista de cuadrícula">
+                            <i class="fas fa-th"></i>
+                        </button>
+                        <button class="view-btn" data-view="list" title="Vista de lista">
+                            <i class="fas fa-list"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="filters-bar glass-card">
+                    <div class="filter-sliders">
+                        <div class="filter-group filter-slider-group">
+                            <label>
+                                <i class="fas fa-dollar-sign"></i> Precio minimo
+                                <span id="priceMinValue" class="slider-value">-</span>
+                            </label>
+                            <input type="range" id="priceMinSlider" min="0" max="100" value="0" class="range-slider" />
+                        </div>
+                        <div class="filter-group filter-slider-group">
+                            <label>
+                                <i class="fas fa-dollar-sign"></i> Precio maximo
+                                <span id="priceMaxValue" class="slider-value">-</span>
+                            </label>
+                            <input type="range" id="priceMaxSlider" min="0" max="100" value="100" class="range-slider" />
+                        </div>
+                    </div>
+                    <div class="filter-actions">
+                        <div class="sort-group">
+                            <label for="sortSelect"><i class="fas fa-sort"></i> Ordenar</label>
+                            <select id="sortSelect" class="sort-select">
+                                <option value="price_asc">Menor a mayor precio</option>
+                                <option value="price_desc">Mayor a menor precio</option>
+                                <option value="best_deal">Mejor oferta</option>
+                            </select>
+                        </div>
+                        <button id="applyFilters" class="btn-filter">
+                            <i class="fas fa-filter"></i> Aplicar
+                        </button>
+                        <button id="clearFilters" class="btn-clear">
+                            <i class="fas fa-times"></i> Limpiar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="todos" class="tab-content active">
+                <div id="todosResults" class="products-container grid-view"></div>
+            </div>
+
+            <div id="preciosgamer" class="tab-content">
+                <div id="preciosgamerResults" class="products-container grid-view"></div>
+            </div>
+
+            <div id="hardgamers" class="tab-content">
+                <div id="hardgamersResults" class="products-container grid-view"></div>
+            </div>
+        </div>
+
+        <div id="error" class="error hidden glass-card">
+            <i class="fas fa-exclamation-circle"></i>
+            <span id="errorText"></span>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

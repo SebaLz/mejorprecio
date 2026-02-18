@@ -52,6 +52,15 @@ Para modo `github`:
 - `POST /buscar`: ademas de resultados, agrega `historial` y `price_change` por producto.
 - `GET /historial?query=rtx&limit=20`: devuelve items guardados y su serie historica.
 
+## Alertas en frontend
+
+- Boton con estrella (`Alertar`) junto al buscador para seguir una busqueda.
+- Barra en home con estado de alertas y boton `Chequear alertas ahora`.
+- Apartado `Alertas` que muestra:
+- Busquedas seguidas.
+- Bajadas detectadas en productos dentro del top 15 mas barato.
+- Las alertas se guardan en `localStorage` del navegador.
+
 ## Notas
 
 - Los selectores CSS en `scraper.py` pueden necesitar ajustes segun cambios en las paginas.
