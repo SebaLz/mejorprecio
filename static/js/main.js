@@ -16,6 +16,7 @@
     const homeAlertsCountEl = document.getElementById('homeAlertsCount');
     const homeAlertsStatusEl = document.getElementById('homeAlertsStatus');
     const checkAlertsBtn = document.getElementById('checkAlertsBtn');
+    const retryPreciosgamerBtn = document.getElementById('retryPreciosgamerBtn');
 
     let currentData = null;
     let currentView = 'grid';
@@ -65,6 +66,7 @@
     });
 
     checkAlertsBtn.addEventListener('click', chequearAlertasAhora);
+    retryPreciosgamerBtn.addEventListener('click', reintentarPreciosgamer);
 
     document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.addEventListener('click', () => {
@@ -267,6 +269,59 @@
             });
     }
 
+    async function reintentarPreciosgamer() {
+        const query = searchInput.value.trim() || (currentData && currentData.query) || '';
+        if (!query) {
+            mostrarError('Primero realiza una busqueda para poder reintentar PreciosGamer.');
+            return;
+        }
+
+        setRetryPreciosgamerBusy(true, 'Reintentando...');
+        error.classList.add('hidden');
+
+        try {
+            const resp = await fetch('/buscar/preciosgamer', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ query })
+            });
+            const data = await resp.json();
+            if (data.error) {
+                mostrarError(data.error);
+                return;
+            }
+
+            if (!currentData || !currentData.hardgamers) {
+                currentData = {
+                    query,
+                    preciosgamer: data.preciosgamer || [],
+                    hardgamers: [],
+                    todos: data.preciosgamer || [],
+                    total: (data.preciosgamer || []).length
+                };
+            } else {
+                currentData.query = query;
+                currentData.preciosgamer = data.preciosgamer || [];
+                const merged = [...(currentData.preciosgamer || []), ...(currentData.hardgamers || [])];
+                merged.sort((a, b) => (a.precio || 0) - (b.precio || 0));
+                currentData.todos = merged;
+                currentData.total = merged.length;
+            }
+
+            mostrarResultados(currentData, { resetSliders: false, activeTab: 'preciosgamer' });
+        } catch (err) {
+            mostrarError('No se pudo reintentar PreciosGamer. Intenta nuevamente.');
+            console.error(err);
+        } finally {
+            setRetryPreciosgamerBusy(false, 'Reintentar PreciosGamer');
+        }
+    }
+
+    function setRetryPreciosgamerBusy(isBusy, label) {
+        retryPreciosgamerBtn.disabled = isBusy;
+        retryPreciosgamerBtn.querySelector('span').textContent = label;
+    }
+
     async function chequearAlertasAhora() {
         const watched = obtenerAlertQueries();
         if (watched.length === 0) {
@@ -340,7 +395,7 @@
         mostrarProductos('preciosgamerResults', preciosgamerFiltrados);
         mostrarProductos('hardgamersResults', hardgamersFiltrados);
 
-        activarTab('todos');
+        activarTab(opts.activeTab || 'todos');
     }
 
     function mostrarProductos(containerId, productos) {

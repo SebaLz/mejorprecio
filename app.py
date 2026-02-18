@@ -212,6 +212,27 @@ def buscar():
         return jsonify({'error': str(e)}), 500
 
 
+@app.route('/buscar/preciosgamer', methods=['POST'])
+def buscar_preciosgamer_retry():
+    try:
+        data = request.get_json() or {}
+        query = data.get('query', '').strip()
+        if not query:
+            return jsonify({'error': 'La busqueda no puede estar vacia'}), 400
+
+        resultados_pg = scraper.buscar_preciosgamer(query)
+        resultados_pg = eliminar_duplicados(resultados_pg)
+        resultados_pg.sort(key=lambda x: x['precio'] if x['precio'] > 0 else float('inf'))
+
+        return jsonify({
+            'query': query,
+            'preciosgamer': resultados_pg,
+            'total': len(resultados_pg)
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
 @app.route('/historial', methods=['GET'])
 def historial():
     try:
