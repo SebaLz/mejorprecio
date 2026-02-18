@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-02-18T04:28:42.846556+00:00",
+  "updated_at": "2026-02-18T04:29:01.036265+00:00",
   "products": {
     "8d3080116cc72b5ab1caeac845e69f7e0fb4396f": {
       "id": "8d3080116cc72b5ab1caeac845e69f7e0fb4396f",
@@ -400,6 +400,326 @@
         }
       ],
       "last_seen_at": "2026-02-18T04:28:42.846556+00:00"
+    },
+    "fd29487332725efd3c0161da8164eb5b6088488e": {
+      "id": "fd29487332725efd3c0161da8164eb5b6088488e",
+      "nombre": "PLACA DE VIDEO PALIT NVIDIA GEFORCE RTX 5070 WHITE OC 12GB...",
+      "tienda": "Venex",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1521754480",
+      "imagen": "https://www.venex.com.ar/products_images/thumb/1770998715_gpu_palit_nvidia_geforce_rtx_5070_white_oc_12gbpng",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1199999.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
+    },
+    "de543365607905c55989e5de5d52741f7805de95": {
+      "id": "de543365607905c55989e5de5d52741f7805de95",
+      "nombre": "PLACA MSI GEFORCE RTX 5070 12G VENTUS 2X OC",
+      "tienda": "Crosshair Gaming",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-1184525487",
+      "imagen": "https://images.elit.com.ar/p/18518/i/yTK1G_l.webp",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1222101.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
+    },
+    "abf7bdc5fca50d36f64310748b25fba9d8c4d1ae": {
+      "id": "abf7bdc5fca50d36f64310748b25fba9d8c4d1ae",
+      "nombre": "PLACA DE VIDEO MSI RTX 5070 SHADOW 2X OC",
+      "tienda": "Crosshair Gaming",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/485198856",
+      "imagen": "https://www.air-intra.com/imgart/215399.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1223413.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
+    },
+    "53a1ffdeb460a6f141bc70446054de795c58eff9": {
+      "id": "53a1ffdeb460a6f141bc70446054de795c58eff9",
+      "nombre": "PLACA DE VIDEO MSI VENTUS 2X RTX 5070 12GB OC",
+      "tienda": "Amonpul Team",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1602680686",
+      "imagen": "https://amonpul.com.ar/assets/uploads/producto-foto-1279.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1228561.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
+    },
+    "28b283d18d0d8715c50921ef4e64773aed893ef0": {
+      "id": "28b283d18d0d8715c50921ef4e64773aed893ef0",
+      "nombre": "VIDEO GEFORCE RTX 5070 12GB MSI VENTUS 2X OC",
+      "tienda": "Katech",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-457238190",
+      "imagen": "https://katech.com.ar/wp-content/uploads/2025/04/x1-63.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1230230.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
+    },
+    "fc51ce063e4c2ee447f60344388ee60684a8cd15": {
+      "id": "fc51ce063e4c2ee447f60344388ee60684a8cd15",
+      "nombre": "PLACA DE VIDEO GIGABYTE RTX 5070 EAGLE OC 12GB",
+      "tienda": "WIZ TECH",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/2095771635",
+      "imagen": "https://wiztech.com.ar/assets/images/products/placa_video/gigabyte_rtx_5070_eagle_oc_a.png",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1238000.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
+    },
+    "2e363a92e4ec19b5972bc0252265999716c87f44": {
+      "id": "2e363a92e4ec19b5972bc0252265999716c87f44",
+      "nombre": "PLACA DE VIDEO MSI NVIDIA GEFORCE RTX 5070 SHADOW 2X OC 12GB...",
+      "tienda": "Venex",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-1374226647",
+      "imagen": "https://www.venex.com.ar/products_images/thumb/1747749685_1.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1244990.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
+    },
+    "f39b35ef96e3e54cea2b17b5a1d04a47e408cc37": {
+      "id": "f39b35ef96e3e54cea2b17b5a1d04a47e408cc37",
+      "nombre": "PLACA MSI GEFORCE RTX 5070 12G VENTUS 2X OC",
+      "tienda": "BracaTech",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/2046968634",
+      "imagen": "https://images.elit.com.ar/p/18518/i/yTK1G_l.webp",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1249876.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
+    },
+    "10d9d1ae91e4311ec1ab8584f4057c7a395428bf": {
+      "id": "10d9d1ae91e4311ec1ab8584f4057c7a395428bf",
+      "nombre": "PLACA DE VIDEO MSI RTX 5070 VENTUS 2X 12GB OC",
+      "tienda": "Crosshair Gaming",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-1408671176",
+      "imagen": "https://www.air-intra.com/imgart/215258.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1249877.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
+    },
+    "e3b84cdc680a69456947b6c3da1067edd7962496": {
+      "id": "e3b84cdc680a69456947b6c3da1067edd7962496",
+      "nombre": "PLACA DE VIDEO MSI SHADOW 2X RTX 5070 12GB OC",
+      "tienda": "Amonpul Team",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-1981634287",
+      "imagen": "https://amonpul.com.ar/assets/uploads/producto-foto-1280.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1250050.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
+    },
+    "b190fb92af06ea50fcc2a740557fce44f47508fc": {
+      "id": "b190fb92af06ea50fcc2a740557fce44f47508fc",
+      "nombre": "PLACA DE VIDEO MSI NVIDIA GEFORCE RTX 5070 SHADOW 2X 12GB OC GDDR7",
+      "tienda": "Maximus",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/432110360",
+      "imagen": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/912-V532-011.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1255400.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
+    },
+    "4cc5be290eb527acc50ef0949fa09df15bec7049": {
+      "id": "4cc5be290eb527acc50ef0949fa09df15bec7049",
+      "nombre": "VIDEO GEFORCE RTX 5070 12GB MSI SHADOW 2X OC",
+      "tienda": "Katech",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-2109609617",
+      "imagen": "https://katech.com.ar/wp-content/uploads/2025/05/x1-17.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1259580.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
+    },
+    "b37e130675b95e597be5b82f9e74c6841e8332f4": {
+      "id": "b37e130675b95e597be5b82f9e74c6841e8332f4",
+      "nombre": "PLACA DE VIDEO RTX 5070 12GB MSI VENTUS 2X OC",
+      "tienda": "Click Gaming",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-1953719101",
+      "imagen": "https://statics.qloud.ar/298/thumb_21-07-2025-03-07-01_1.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1261540.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
+    },
+    "ac39c23edb4b4b225ce26b295bca60c25f1ddb2c": {
+      "id": "ac39c23edb4b4b225ce26b295bca60c25f1ddb2c",
+      "nombre": "PLACA DE VIDEO MSI RTX 5070 VENTUS 2X OC 12GB GDDR7",
+      "tienda": "SilverHard",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1999630982",
+      "imagen": "https://silverhard.com/wp-content/uploads/2025/08/600-39.avif",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1263267.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
+    },
+    "8786b0c6b946b8fc186397917cae413f08883c9b": {
+      "id": "8786b0c6b946b8fc186397917cae413f08883c9b",
+      "nombre": "PLACA DE VIDEO GIGABYTE RTX 5070 EAGLE OC 12GB",
+      "tienda": "AuraGamer",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-1195907918",
+      "imagen": "https://i0.wp.com/static.nb.com.ar/i/nb_PLACA-DE-VIDEO-GIGABYTE-RTX-5070-EAGLE-OC-12GB_export_38b85eb3d3f6f9bc4c4168ef0c641baa.jpg?ssl=1",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1264264.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
+    },
+    "0cf78c534e3195ac0e661e267072cbb88b6c70c5": {
+      "id": "0cf78c534e3195ac0e661e267072cbb88b6c70c5",
+      "nombre": "PLACA DE PLACA DE VIDEO GEFORCE RTX 5070 12GB MSI VENTUS 2X OC",
+      "tienda": "Full H4rd",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1621801299",
+      "imagen": "https://www.fullh4rd.com.ar/img/productos/3/placa-de-video-geforce-rtx-5070-12gb-msi-ventus-2x-oc-0.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1267757.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
+    },
+    "0f2790a37ef0918e2c31af9ecc8bea391faa5dac": {
+      "id": "0f2790a37ef0918e2c31af9ecc8bea391faa5dac",
+      "nombre": "PLACA DE VIDEO GEFORCE RTX 5070 12GB MSI VENTUS 2X OC",
+      "tienda": "Xt-PC",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-309134444",
+      "imagen": "https://xt-pc.com.ar/img/productos/3/VGA2872.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1267757.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
+    },
+    "45a337fa422ae301b01501f86357f3623380c688": {
+      "id": "45a337fa422ae301b01501f86357f3623380c688",
+      "nombre": "PLACA DE VIDEO MSI GEFORCE RTX 5070 VENTUS 3X OC 12GB",
+      "tienda": "SilverHard",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1525610566",
+      "imagen": "https://silverhard.com/wp-content/uploads/2025/11/Placa-de-Video-MSI-GeForce-RTX-5070-Ventus-3X-OC-12GB.avif",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1268803.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
+    },
+    "2d2a1bb99f77a26196a1f4212b22e8ae98328155": {
+      "id": "2d2a1bb99f77a26196a1f4212b22e8ae98328155",
+      "nombre": "PLACA DE VIDEO GIGABYTE RTX 5070 EAGLE 12GBB OC SFF",
+      "tienda": "Crosshair Gaming",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-1673382857",
+      "imagen": "https://www.air-intra.com/imgart/215496.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1273569.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
+    },
+    "7aee8414dc32f697eb0efadbf86c67d8ed204d01": {
+      "id": "7aee8414dc32f697eb0efadbf86c67d8ed204d01",
+      "nombre": "PLACA DE VIDEO GIGABYTE RTX 5070 EAGLE OC 12GB",
+      "tienda": "The Gamer Shop",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-1742457832",
+      "imagen": "https://static.nb.com.ar/i/nb_PLACA-DE-VIDEO-GIGABYTE-RTX-5070-EAGLE-OC-12GB_export_38b85eb3d3f6f9bc4c4168ef0c641baa.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T04:29:01.036265+00:00",
+          "precio": 1276080.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T04:29:01.036265+00:00"
     }
   }
 }
