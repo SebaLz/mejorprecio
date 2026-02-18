@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-02-18T04:29:27.083862+00:00",
+  "updated_at": "2026-02-18T17:25:47.979836+00:00",
   "products": {
     "8d3080116cc72b5ab1caeac845e69f7e0fb4396f": {
       "id": "8d3080116cc72b5ab1caeac845e69f7e0fb4396f",
@@ -413,9 +413,14 @@
           "captured_at": "2026-02-18T04:29:01.115673+00:00",
           "precio": 1199999.0,
           "query": "rtx 5070"
+        },
+        {
+          "captured_at": "2026-02-18T17:25:47.979836+00:00",
+          "precio": 1199999.0,
+          "query": "rtx 5070"
         }
       ],
-      "last_seen_at": "2026-02-18T04:29:01.115673+00:00"
+      "last_seen_at": "2026-02-18T17:25:47.979836+00:00"
     },
     "de543365607905c55989e5de5d52741f7805de95": {
       "id": "de543365607905c55989e5de5d52741f7805de95",
@@ -429,9 +434,14 @@
           "captured_at": "2026-02-18T04:29:01.115673+00:00",
           "precio": 1222101.0,
           "query": "rtx 5070"
+        },
+        {
+          "captured_at": "2026-02-18T17:25:47.979836+00:00",
+          "precio": 1222101.0,
+          "query": "rtx 5070"
         }
       ],
-      "last_seen_at": "2026-02-18T04:29:01.115673+00:00"
+      "last_seen_at": "2026-02-18T17:25:47.979836+00:00"
     },
     "abf7bdc5fca50d36f64310748b25fba9d8c4d1ae": {
       "id": "abf7bdc5fca50d36f64310748b25fba9d8c4d1ae",
@@ -445,9 +455,14 @@
           "captured_at": "2026-02-18T04:29:01.115673+00:00",
           "precio": 1223413.0,
           "query": "rtx 5070"
+        },
+        {
+          "captured_at": "2026-02-18T17:25:47.979836+00:00",
+          "precio": 1223413.0,
+          "query": "rtx 5070"
         }
       ],
-      "last_seen_at": "2026-02-18T04:29:01.115673+00:00"
+      "last_seen_at": "2026-02-18T17:25:47.979836+00:00"
     },
     "53a1ffdeb460a6f141bc70446054de795c58eff9": {
       "id": "53a1ffdeb460a6f141bc70446054de795c58eff9",
@@ -461,9 +476,14 @@
           "captured_at": "2026-02-18T04:29:01.115673+00:00",
           "precio": 1228561.0,
           "query": "rtx 5070"
+        },
+        {
+          "captured_at": "2026-02-18T17:25:47.979836+00:00",
+          "precio": 1232887.0,
+          "query": "rtx 5070"
         }
       ],
-      "last_seen_at": "2026-02-18T04:29:01.115673+00:00"
+      "last_seen_at": "2026-02-18T17:25:47.979836+00:00"
     },
     "28b283d18d0d8715c50921ef4e64773aed893ef0": {
       "id": "28b283d18d0d8715c50921ef4e64773aed893ef0",
@@ -477,9 +497,14 @@
           "captured_at": "2026-02-18T04:29:01.115673+00:00",
           "precio": 1230230.0,
           "query": "rtx 5070"
+        },
+        {
+          "captured_at": "2026-02-18T17:25:47.979836+00:00",
+          "precio": 1234270.0,
+          "query": "rtx 5070"
         }
       ],
-      "last_seen_at": "2026-02-18T04:29:01.115673+00:00"
+      "last_seen_at": "2026-02-18T17:25:47.979836+00:00"
     },
     "fc51ce063e4c2ee447f60344388ee60684a8cd15": {
       "id": "fc51ce063e4c2ee447f60344388ee60684a8cd15",
@@ -493,9 +518,14 @@
           "captured_at": "2026-02-18T04:29:01.115673+00:00",
           "precio": 1238000.0,
           "query": "rtx 5070"
+        },
+        {
+          "captured_at": "2026-02-18T17:25:47.979836+00:00",
+          "precio": 1238000.0,
+          "query": "rtx 5070"
         }
       ],
-      "last_seen_at": "2026-02-18T04:29:01.115673+00:00"
+      "last_seen_at": "2026-02-18T17:25:47.979836+00:00"
     },
     "2e363a92e4ec19b5972bc0252265999716c87f44": {
       "id": "2e363a92e4ec19b5972bc0252265999716c87f44",
@@ -509,9 +539,14 @@
           "captured_at": "2026-02-18T04:29:01.115673+00:00",
           "precio": 1244990.0,
           "query": "rtx 5070"
+        },
+        {
+          "captured_at": "2026-02-18T17:25:47.979836+00:00",
+          "precio": 1244990.0,
+          "query": "rtx 5070"
         }
       ],
-      "last_seen_at": "2026-02-18T04:29:01.115673+00:00"
+      "last_seen_at": "2026-02-18T17:25:47.979836+00:00"
     },
     "f39b35ef96e3e54cea2b17b5a1d04a47e408cc37": {
       "id": "f39b35ef96e3e54cea2b17b5a1d04a47e408cc37",
@@ -525,9 +560,14 @@
           "captured_at": "2026-02-18T04:29:01.115673+00:00",
           "precio": 1249876.0,
           "query": "rtx 5070"
+        },
+        {
+          "captured_at": "2026-02-18T17:25:47.979836+00:00",
+          "precio": 1249876.0,
+          "query": "rtx 5070"
         }
       ],
-      "last_seen_at": "2026-02-18T04:29:01.115673+00:00"
+      "last_seen_at": "2026-02-18T17:25:47.979836+00:00"
     },
     "10d9d1ae91e4311ec1ab8584f4057c7a395428bf": {
       "id": "10d9d1ae91e4311ec1ab8584f4057c7a395428bf",
@@ -541,9 +581,14 @@
           "captured_at": "2026-02-18T04:29:01.115673+00:00",
           "precio": 1249877.0,
           "query": "rtx 5070"
+        },
+        {
+          "captured_at": "2026-02-18T17:25:47.979836+00:00",
+          "precio": 1249877.0,
+          "query": "rtx 5070"
         }
       ],
-      "last_seen_at": "2026-02-18T04:29:01.115673+00:00"
+      "last_seen_at": "2026-02-18T17:25:47.979836+00:00"
     },
     "e3b84cdc680a69456947b6c3da1067edd7962496": {
       "id": "e3b84cdc680a69456947b6c3da1067edd7962496",
@@ -557,9 +602,14 @@
           "captured_at": "2026-02-18T04:29:01.115673+00:00",
           "precio": 1250050.0,
           "query": "rtx 5070"
+        },
+        {
+          "captured_at": "2026-02-18T17:25:47.979836+00:00",
+          "precio": 1254451.0,
+          "query": "rtx 5070"
         }
       ],
-      "last_seen_at": "2026-02-18T04:29:01.115673+00:00"
+      "last_seen_at": "2026-02-18T17:25:47.979836+00:00"
     },
     "b190fb92af06ea50fcc2a740557fce44f47508fc": {
       "id": "b190fb92af06ea50fcc2a740557fce44f47508fc",
@@ -1008,6 +1058,150 @@
         }
       ],
       "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
+    },
+    "661903ba0367e3ecf1deeb18fd982ef514abeac5": {
+      "id": "661903ba0367e3ecf1deeb18fd982ef514abeac5",
+      "nombre": "PLACA DE VIDEO GEFORCE RTX 5070 12GB VENTUS 2X OC",
+      "tienda": "ArmyTech",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/847409700",
+      "imagen": "https://www.armytech.com.ar/5029-medium_default/placa-de-video-geforce-rtx-5070-12gb-ventus-2x-oc.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T17:25:47.979836+00:00",
+          "precio": 1150383.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T17:25:47.979836+00:00"
+    },
+    "39608c61d024eb4c759122167914ce2ce4b8b30c": {
+      "id": "39608c61d024eb4c759122167914ce2ce4b8b30c",
+      "nombre": "PLACA DE VIDEO PALIT NVIDIA GEFORCE RTX 5070 INFINITY 3 12GB...",
+      "tienda": "Venex",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-977854586",
+      "imagen": "https://www.venex.com.ar/products_images/thumb/1755524260_1.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T17:25:47.979836+00:00",
+          "precio": 1174990.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T17:25:47.979836+00:00"
+    },
+    "7c5280fa72e3b9bbbb47be3da2eaf1389ff533e9": {
+      "id": "7c5280fa72e3b9bbbb47be3da2eaf1389ff533e9",
+      "nombre": "PLACA DE VIDEO MSI NVIDIA GEFORCE RTX 5070 VENTUS 2X 12GB OC GDDR7",
+      "tienda": "Maximus",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1862481155",
+      "imagen": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/912-V532-009.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T17:25:47.979836+00:00",
+          "precio": 1181700.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T17:25:47.979836+00:00"
+    },
+    "e6ab7b89abbf6c6186f9b67f248c9db7b3e2ffe7": {
+      "id": "e6ab7b89abbf6c6186f9b67f248c9db7b3e2ffe7",
+      "nombre": "VGA 12GB RTX 5070 MSI SHADOW 2X OC",
+      "tienda": "Hard Vision",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/982369103",
+      "imagen": "https://www.air-intra.com/imgart/215399.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T17:25:47.979836+00:00",
+          "precio": 1195066.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T17:25:47.979836+00:00"
+    },
+    "3e74573c993856e973f8cebdbcdcc7d7f7a91aff": {
+      "id": "3e74573c993856e973f8cebdbcdcc7d7f7a91aff",
+      "nombre": "PLACA DE VIDEO PALIT GEFORCE RTX 5070 INFINITY 3 12GB GDDR7 192BIT PCIE 5.0 SFF + RE REQUIEM",
+      "tienda": "Logg",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-1283079715",
+      "imagen": "https://logg.api.cygnus.market/static/logg/Global/Placa_de_Video_Palit_GeForce_RTX_5070_Infinity_3_12GB_GDDR7_192bit_PCIe_5.0/143ef23b57934048ae71be5f8beb9763.webp",
+      "history": [
+        {
+          "captured_at": "2026-02-18T17:25:47.979836+00:00",
+          "precio": 1199999.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T17:25:47.979836+00:00"
+    },
+    "d8ded1e408ae91507d7276979c366a0d0f9bb36f": {
+      "id": "d8ded1e408ae91507d7276979c366a0d0f9bb36f",
+      "nombre": "VGA 12GB RTX 5070 MSI VENTUS 2X OC",
+      "tienda": "Hard Vision",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1549179968",
+      "imagen": "https://www.air-intra.com/imgart/215258.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T17:25:47.979836+00:00",
+          "precio": 1210570.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T17:25:47.979836+00:00"
+    },
+    "e5c2e23707e11facfa6175ead3ae4e7b449dfb89": {
+      "id": "e5c2e23707e11facfa6175ead3ae4e7b449dfb89",
+      "nombre": "PLACA DE VIDEO GEFORCE RTX 5070 12GB MSI SHADOW 2X OC GDDR7",
+      "tienda": "Gaming City",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/2107281620",
+      "imagen": "https://www.gamingcity.com.ar/images/imagen_16305.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T17:25:47.979836+00:00",
+          "precio": 1234050.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T17:25:47.979836+00:00"
+    },
+    "f4753e6594f232029cc22633d7a7cbb3c18c7b91": {
+      "id": "f4753e6594f232029cc22633d7a7cbb3c18c7b91",
+      "nombre": "VGA 12GB RTX 5070 GIGABYTE EAGLE OC SFF",
+      "tienda": "Hard Vision",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1842033984",
+      "imagen": "https://www.air-intra.com/imgart/215496.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T17:25:47.979836+00:00",
+          "precio": 1244060.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T17:25:47.979836+00:00"
+    },
+    "fc8c6caee3ebed33a0903195b3883bda237488e4": {
+      "id": "fc8c6caee3ebed33a0903195b3883bda237488e4",
+      "nombre": "VGA 12GB RTX 5070 MSI VENTUS 3X OC",
+      "tienda": "Hard Vision",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/379580672",
+      "imagen": "https://statics.qloud.ar/219/19-12-2025-09-12-57_ScreenshotatDec1921-43-58.png",
+      "history": [
+        {
+          "captured_at": "2026-02-18T17:25:47.979836+00:00",
+          "precio": 1258647.0,
+          "query": "rtx 5070"
+        }
+      ],
+      "last_seen_at": "2026-02-18T17:25:47.979836+00:00"
     }
   }
 }
