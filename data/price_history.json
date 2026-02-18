@@ -1,0 +1,310 @@
+{
+  "version": 1,
+  "updated_at": "2026-02-18T03:45:28.299065+00:00",
+  "products": {
+    "8d3080116cc72b5ab1caeac845e69f7e0fb4396f": {
+      "id": "8d3080116cc72b5ab1caeac845e69f7e0fb4396f",
+      "nombre": "VGA ASUS PRIME OC RTX 5080 16GB",
+      "tienda": "HardCore",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/349031716",
+      "imagen": "https://i0.wp.com/hardcorecomputacion.com.ar/wp-content/uploads/2026/01/90YV0LX0-M0AA00-2.jpg?resize=300%2C300&ssl=1",
+      "history": [
+        {
+          "captured_at": "2026-02-18T03:45:28.299065+00:00",
+          "precio": 2640400.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-18T03:45:28.299065+00:00"
+    },
+    "84edd0c3c1363b07590244bfaf7b963022481eb4": {
+      "id": "84edd0c3c1363b07590244bfaf7b963022481eb4",
+      "nombre": "PLACA DE VIDEO MSI GEFORCE RTX 5080 SHADOW 16GB OC",
+      "tienda": "BracaTech",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-960231784",
+      "imagen": "https://cdn.qloud.ar/300/thumb_12-01-2026-08-01-37_10243.webp",
+      "history": [
+        {
+          "captured_at": "2026-02-18T03:45:28.299065+00:00",
+          "precio": 2754270.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-18T03:45:28.299065+00:00"
+    },
+    "8e87bc32e58fe2c28e3ef9a7a27ca2c35c05f4b8": {
+      "id": "8e87bc32e58fe2c28e3ef9a7a27ca2c35c05f4b8",
+      "nombre": "PLACA DE VIDEO MSI RTX 5080 INSPIRE 3X OC 16GB GDDR7",
+      "tienda": "Crosshair Gaming",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1215784956",
+      "imagen": "https://statics.qloud.ar/283/03-12-2025-03-12-36_video-geforce-rtx-5080-16gb-msi-inspire-3x-oc-0.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T03:45:28.299065+00:00",
+          "precio": 2801461.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-18T03:45:28.299065+00:00"
+    },
+    "7421eddff3eb8c0b2d19e05a2c6779d7ce2a6b99": {
+      "id": "7421eddff3eb8c0b2d19e05a2c6779d7ce2a6b99",
+      "nombre": "PLACA DE PLACA DE VIDEO GEFORCE RTX 5080 16GB MSI INSPIRE 3X OC",
+      "tienda": "Full H4rd",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1621806172",
+      "imagen": "https://www.fullh4rd.com.ar/img/productos/3/placa-de-video-geforce-rtx-5080-16gb-msi-inspire-3x-oc-0.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T03:45:28.299065+00:00",
+          "precio": 2831900.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-18T03:45:28.299065+00:00"
+    },
+    "c42863fa9241be29864bf0736190c2d7f8765317": {
+      "id": "c42863fa9241be29864bf0736190c2d7f8765317",
+      "nombre": "PLACA DE VIDEO MSI NVIDIA GEFORCE RTX 5080 INSPIRE X3 16GB OC GDDR7",
+      "tienda": "Maximus",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1149136607",
+      "imagen": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/912-V531-203.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T03:45:28.299065+00:00",
+          "precio": 2832600.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-18T03:45:28.299065+00:00"
+    },
+    "30fd7103d386ce2b51de8a69156ba707d14d7e29": {
+      "id": "30fd7103d386ce2b51de8a69156ba707d14d7e29",
+      "nombre": "VIDEO GEFORCE RTX 5080 16GB MSI INSPIRE X3 OC GDDR7",
+      "tienda": "Katech",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/366833012",
+      "imagen": "https://katech.com.ar/wp-content/uploads/2025/03/x1-20.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T03:45:28.299065+00:00",
+          "precio": 2849120.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-18T03:45:28.299065+00:00"
+    },
+    "7d16b540454fe4c27c94c36d6785c5315255c361": {
+      "id": "7d16b540454fe4c27c94c36d6785c5315255c361",
+      "nombre": "PLACA DE VIDEO MSI RTX 5080 GAMING TRIO OC 16GB",
+      "tienda": "WIZ TECH",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1498872378",
+      "imagen": "https://wiztech.com.ar/assets/images/products/placa_video/msi_rtx_5080_gaming_trio_oc_a.png",
+      "history": [
+        {
+          "captured_at": "2026-02-18T03:45:28.299065+00:00",
+          "precio": 2878000.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-18T03:45:28.299065+00:00"
+    },
+    "15df5782fc02492375e9dde51ab88122544308d6": {
+      "id": "15df5782fc02492375e9dde51ab88122544308d6",
+      "nombre": "PLACA DE VIDEO MSI INSPIRE 3X RTX 5080 16GB OC GDDR7",
+      "tienda": "Amonpul Team",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1895129216",
+      "imagen": "https://amonpul.com.ar/assets/uploads/producto-foto-1286.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T03:45:28.299065+00:00",
+          "precio": 2881904.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-18T03:45:28.299065+00:00"
+    },
+    "96ef39f8a5feb0c499f2108659f09202b4e6f6e7": {
+      "id": "96ef39f8a5feb0c499f2108659f09202b4e6f6e7",
+      "nombre": "PLACA DE VIDEO GIGABYTE RTX 5080 GAMING 16GB OC GDDR7",
+      "tienda": "Crosshair Gaming",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-143156110",
+      "imagen": "https://statics.qloud.ar/283/09-12-2025-01-12-57_Diseosinttulo.png",
+      "history": [
+        {
+          "captured_at": "2026-02-18T03:45:28.299065+00:00",
+          "precio": 2883064.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-18T03:45:28.299065+00:00"
+    },
+    "12fa89a056268363a328c46da9161d5d329a7194": {
+      "id": "12fa89a056268363a328c46da9161d5d329a7194",
+      "nombre": "PLACA DE VIDEO GIGABYTE GEFORCE RTX 5080 AERO OC 16G",
+      "tienda": "Megasoft",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1582095153",
+      "imagen": "https://mla-s1-p.mlstatic.com/794644-MLA99937046589_112025-AB.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T03:45:28.299065+00:00",
+          "precio": 2886741.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-18T03:45:28.299065+00:00"
+    },
+    "4c526f516fdacd0031552c9221a331eea3fa031d": {
+      "id": "4c526f516fdacd0031552c9221a331eea3fa031d",
+      "nombre": "PLACA DE VIDEO GIGABYTE GAMING RTX 5080 16GB OC GDDR7",
+      "tienda": "Amonpul Team",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1728234757",
+      "imagen": "https://amonpul.com.ar/assets/uploads/producto-foto-1267.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T03:45:28.299065+00:00",
+          "precio": 2897458.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-18T03:45:28.299065+00:00"
+    },
+    "b8b989e92436d07823f0e970de0cd808e9fb8371": {
+      "id": "b8b989e92436d07823f0e970de0cd808e9fb8371",
+      "nombre": "PLACA DE VIDEO RTX 5080 16GB MSI GAMING TRIO OC",
+      "tienda": "Katech",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/869796889",
+      "imagen": "https://katech.com.ar/wp-content/uploads/2025/12/X1-24.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T03:45:28.299065+00:00",
+          "precio": 2911610.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-18T03:45:28.299065+00:00"
+    },
+    "3137129d8fb02699e7c6ea439c54ad6029387119": {
+      "id": "3137129d8fb02699e7c6ea439c54ad6029387119",
+      "nombre": "PLACA DE VIDEO GEFORCE RTX 5080 16GB MSI INSPIRE 3X OC",
+      "tienda": "Mexx",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-1679578000",
+      "imagen": "https://mexx-img-2019.s3.amazonaws.com/tumb_Placa-Video-GeForce-RTX-5080-16Gb-Msi-Inspire-3X-Oc_48835_1.jpeg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T03:45:28.299065+00:00",
+          "precio": 2950999.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-18T03:45:28.299065+00:00"
+    },
+    "290be17a6f6e24f8ff7e0207323828db0375dffe": {
+      "id": "290be17a6f6e24f8ff7e0207323828db0375dffe",
+      "nombre": "PLACA DE VIDEO MSI RTX 5080 16GB SHADOW 3X OC GDDR7",
+      "tienda": "Space",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-1230580558",
+      "imagen": "https://spacegamer.com.ar/img/Public/1058/579-producto-1.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T03:45:28.299065+00:00",
+          "precio": 2972500.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-18T03:45:28.299065+00:00"
+    },
+    "9629cfd7a220d538b9ad393ed01fa259d7189441": {
+      "id": "9629cfd7a220d538b9ad393ed01fa259d7189441",
+      "nombre": "PLACA DE VIDEO MSI RTX 5080 INSPIRE 3X OC 16GB GDDR7",
+      "tienda": "SilverHard",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-1823608339",
+      "imagen": "https://silverhard.com/wp-content/uploads/2025/08/600-36.avif",
+      "history": [
+        {
+          "captured_at": "2026-02-18T03:45:28.299065+00:00",
+          "precio": 2972544.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-18T03:45:28.299065+00:00"
+    },
+    "dfc6d760f68821386e0ae1d0ec7f69ac6714769d": {
+      "id": "dfc6d760f68821386e0ae1d0ec7f69ac6714769d",
+      "nombre": "PLACA DE VIDEO MSI RTX 5080 16GB VENTUS 3X OC WHITE",
+      "tienda": "Space",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-201676895",
+      "imagen": "https://spacegamer.com.ar/img/Public/1058/34010-producto-1.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T03:45:28.299065+00:00",
+          "precio": 3027600.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-18T03:45:28.299065+00:00"
+    },
+    "f272e35f232dfe55c962563e6676e4f2f0643371": {
+      "id": "f272e35f232dfe55c962563e6676e4f2f0643371",
+      "nombre": "VIDEO GEFORCE RTX 5080 16GB GIGABYTE GAMING OC",
+      "tienda": "Katech",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-1747440199",
+      "imagen": "https://katech.com.ar/wp-content/uploads/2025/02/x1-65.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T03:45:28.299065+00:00",
+          "precio": 3028010.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-18T03:45:28.299065+00:00"
+    },
+    "c4a7910721db3169670aac29dabee402532d00e0": {
+      "id": "c4a7910721db3169670aac29dabee402532d00e0",
+      "nombre": "PLACA DE PLACA DE VIDEO GEFORCE RTX 5080 16GB MSI GAMING TRIO OC",
+      "tienda": "Full H4rd",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1621149926",
+      "imagen": "https://www.fullh4rd.com.ar/img/productos/3/placa-de-video-geforce-rtx-5080-16gb-msi-gaming-trio-oc-0.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-18T03:45:28.299065+00:00",
+          "precio": 3028920.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-18T03:45:28.299065+00:00"
+    },
+    "fd7b45ad7f80892b4181d4e6259e90e422487647": {
+      "id": "fd7b45ad7f80892b4181d4e6259e90e422487647",
+      "nombre": "PLACA DE VIDEO MSI RTX 5080 GAMING TRIO OC 16GB GDDR7",
+      "tienda": "SilverHard",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-781835967",
+      "imagen": "https://silverhard.com/wp-content/uploads/2025/08/600-34.avif",
+      "history": [
+        {
+          "captured_at": "2026-02-18T03:45:28.299065+00:00",
+          "precio": 3031171.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-18T03:45:28.299065+00:00"
+    }
+  }
+}
