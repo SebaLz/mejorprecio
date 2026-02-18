@@ -385,6 +385,9 @@
             document.getElementById('statsText').textContent =
                 `Se encontraron ${totalOriginal} resultados para "${data.query}"`;
         }
+        if (data.cache && data.cache.preciosgamer_usado) {
+            document.getElementById('statsText').textContent += ' | PreciosGamer desde cache';
+        }
 
         const orden = sortSelect.value;
         const preciosgamerFiltrados = ordenarProductos(filtrarProductos(data.preciosgamer || []), orden);

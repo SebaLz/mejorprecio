@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, jsonify, Response
 from scraper import OfertasScraper
 import re
 import os
+import json
 from urllib.parse import urljoin
 from datetime import date
 from price_history import create_history_service, product_fingerprint
@@ -9,6 +10,8 @@ from price_history import create_history_service, product_fingerprint
 app = Flask(__name__)
 scraper = OfertasScraper()
 history_service = create_history_service()
+CACHE_FILE = os.getenv('PRECIOSGAMER_CACHE_FILE', 'data/preciosgamer_cache.json')
+CACHE_MAX_AGE_HOURS = int(os.getenv('PRECIOSGAMER_CACHE_MAX_AGE_HOURS', '72'))
 
 
 def get_base_url():
@@ -16,6 +19,50 @@ def get_base_url():
     if configured:
         return configured.rstrip('/')
     return request.host_url.rstrip('/')
+
+
+def normalizar_query_cache(query):
+    if not query:
+        return ""
+    query = query.lower().strip()
+    query = re.sub(r'\s+', ' ', query)
+    query = re.sub(r'[^\w\s]', '', query)
+    return query.strip()
+
+
+def cargar_cache_preciosgamer():
+    if not os.path.exists(CACHE_FILE):
+        return {}
+    try:
+        with open(CACHE_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def obtener_cache_preciosgamer(query):
+    cache = cargar_cache_preciosgamer()
+    key = normalizar_query_cache(query)
+    entry = cache.get('queries', {}).get(key)
+    if not entry:
+        return []
+
+    updated_at = entry.get('updated_at')
+    if not updated_at:
+        return entry.get('results', [])
+
+    try:
+        # formato esperado: YYYY-MM-DDTHH:MM:SSZ
+        from datetime import datetime, timezone
+        ts = datetime.strptime(updated_at, '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=timezone.utc)
+        now = datetime.now(timezone.utc)
+        age_hours = (now - ts).total_seconds() / 3600
+        if age_hours > CACHE_MAX_AGE_HOURS:
+            return []
+    except Exception:
+        pass
+
+    return entry.get('results', [])
 
 def normalizar_texto(texto):
     """Normaliza un texto para comparación: lowercase, sin espacios extra, sin caracteres especiales"""
@@ -181,6 +228,12 @@ def buscar():
             return jsonify({'error': 'La búsqueda no puede estar vacía'}), 400
         
         resultados = scraper.buscar_todo(query)
+        cache_usado_preciosgamer = False
+        if not resultados.get('preciosgamer'):
+            cache_pg = obtener_cache_preciosgamer(query)
+            if cache_pg:
+                resultados['preciosgamer'] = cache_pg
+                cache_usado_preciosgamer = True
         
         # Eliminar duplicados de cada fuente
         resultados['preciosgamer'] = eliminar_duplicados(resultados['preciosgamer'])
@@ -206,6 +259,9 @@ def buscar():
             'backend': snapshot.get('backend'),
             'capturado_en': snapshot.get('captured_at')
         }
+        resultados['cache'] = {
+            'preciosgamer_usado': cache_usado_preciosgamer
+        }
         
         return jsonify(resultados)
     except Exception as e:
@@ -221,13 +277,20 @@ def buscar_preciosgamer_retry():
             return jsonify({'error': 'La busqueda no puede estar vacia'}), 400
 
         resultados_pg = scraper.buscar_preciosgamer(query)
+        cache_usado = False
+        if not resultados_pg:
+            cache_pg = obtener_cache_preciosgamer(query)
+            if cache_pg:
+                resultados_pg = cache_pg
+                cache_usado = True
         resultados_pg = eliminar_duplicados(resultados_pg)
         resultados_pg.sort(key=lambda x: x['precio'] if x['precio'] > 0 else float('inf'))
 
         return jsonify({
             'query': query,
             'preciosgamer': resultados_pg,
-            'total': len(resultados_pg)
+            'total': len(resultados_pg),
+            'cache_usado': cache_usado
         })
     except Exception as e:
         return jsonify({'error': str(e)}), 500

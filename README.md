@@ -72,6 +72,21 @@ Variable recomendada en Vercel:
 
 - `SITE_URL`: URL publica canónica, por ejemplo `https://mejorprecio.vercel.app`
 
+## Cache PreciosGamer para Vercel
+
+Para evitar fallos intermitentes de scraping en serverless, el backend usa cache local del repo:
+
+- Archivo de cache: `data/preciosgamer_cache.json`
+- Queries rastreadas: `data/tracked_queries.json`
+- Script de generacion: `scripts/build_preciosgamer_cache.py`
+- Workflow automatico: `.github/workflows/update-preciosgamer-cache.yml`
+
+Comportamiento:
+
+- Si una busqueda en vivo de PreciosGamer devuelve 0, se usa cache si existe y esta vigente.
+- Vigencia configurable por `PRECIOSGAMER_CACHE_MAX_AGE_HOURS` (default `72`).
+- Ruta del archivo configurable por `PRECIOSGAMER_CACHE_FILE`.
+
 ## Notas
 
 - Los selectores CSS en `scraper.py` pueden necesitar ajustes segun cambios en las paginas.
