@@ -61,6 +61,17 @@ Para modo `github`:
 - Bajadas detectadas en productos dentro del top 15 mas barato.
 - Las alertas se guardan en `localStorage` del navegador.
 
+## SEO tecnico
+
+- Metadatos SEO y social sharing (Open Graph y Twitter Cards) en la home.
+- Datos estructurados JSON-LD (`WebSite` y `WebApplication`).
+- `robots.txt` y `sitemap.xml` servidos por Flask.
+- Imagen social para previews en `static/og-image.svg`.
+
+Variable recomendada en Vercel:
+
+- `SITE_URL`: URL publica canónica, por ejemplo `https://mejorprecio.vercel.app`
+
 ## Notas
 
 - Los selectores CSS en `scraper.py` pueden necesitar ajustes segun cambios en las paginas.

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MejorPrecio">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0E87EA"/>
+      <stop offset="100%" stop-color="#2EA1FF"/>
+    </linearGradient>
+    <linearGradient id="fg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F5FF"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#bg)"/>
+  <path fill="url(#fg)" d="M16 43V20h6.5l6.8 11.2L36 20h6.5v23H36V32.7l-6.7 10.6h-.2L22.4 32.7V43z"/>
+  <path fill="#8FD0FF" d="M45 43l7-7 3.2 3.2-10.2 10.2L38.6 43z"/>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="MejorPrecio">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07121F"/>
+      <stop offset="60%" stop-color="#0C2033"/>
+      <stop offset="100%" stop-color="#123253"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2EA1FF"/>
+      <stop offset="100%" stop-color="#0E87EA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1030" cy="90" r="220" fill="#2EA1FF" fill-opacity="0.15"/>
+  <circle cx="180" cy="540" r="260" fill="#10B981" fill-opacity="0.13"/>
+
+  <rect x="100" y="100" width="1000" height="430" rx="24" fill="#0E1E2E" fill-opacity="0.92" stroke="#8FD0FF" stroke-opacity="0.25"/>
+
+  <text x="160" y="240" font-size="72" font-family="Manrope, Segoe UI, Arial, sans-serif" font-weight="800" fill="#F2F7FF">MejorPrecio</text>
+  <text x="160" y="300" font-size="34" font-family="Manrope, Segoe UI, Arial, sans-serif" font-weight="600" fill="#AFC9E0">
+    Comparador de precios de hardware en Argentina
+  </text>
+  <text x="160" y="360" font-size="26" font-family="Manrope, Segoe UI, Arial, sans-serif" fill="#8FD0FF">
+    PreciosGamer + HardGamers
+  </text>
+
+  <rect x="160" y="402" width="385" height="70" rx="14" fill="url(#accent)"/>
+  <text x="190" y="447" font-size="30" font-family="Manrope, Segoe UI, Arial, sans-serif" font-weight="700" fill="#FFFFFF">
+    Historial + Alertas
+  </text>
+</svg>

@@ -3,16 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buscador de Ofertas Gaming</title>
+    <title>{{ page_title or "MejorPrecio" }}</title>
+    <meta name="description" content="{{ page_description or 'Compara precios de hardware en tiendas de Argentina.' }}">
+    <meta name="theme-color" content="#0b1726">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <link rel="canonical" href="{{ canonical_url or request.url }}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_AR">
+    <meta property="og:site_name" content="{{ site_name or 'MejorPrecio' }}">
+    <meta property="og:title" content="{{ page_title or 'MejorPrecio' }}">
+    <meta property="og:description" content="{{ page_description or 'Comparador de precios de hardware.' }}">
+    <meta property="og:url" content="{{ canonical_url or request.url }}">
+    <meta property="og:image" content="{{ og_image or url_for('static', filename='favicon.svg', _external=True) }}">
+    <meta property="og:image:alt" content="MejorPrecio, comparador de precios de hardware">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page_title or 'MejorPrecio' }}">
+    <meta name="twitter:description" content="{{ page_description or 'Comparador de precios de hardware.' }}">
+    <meta name="twitter:image" content="{{ og_image or url_for('static', filename='favicon.svg', _external=True) }}">
+    <meta name="twitter:image:alt" content="MejorPrecio, comparador de precios de hardware">
+
+    <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}">
+    <link rel="apple-touch-icon" href="{{ url_for('static', filename='favicon.svg') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    {% for item in structured_data or [] %}
+    <script type="application/ld+json">{{ item | tojson }}</script>
+    {% endfor %}
 </head>
 <body>
     <div class="container">
         <header class="glass-header">
             <div class="header-content">
-                <h1><i class="fas fa-gamepad"></i> Buscador de Ofertas Gaming</h1>
-                <p class="subtitle">Compara precios en PreciosGamer y HardGamers</p>
+                <div class="brand-kicker">Monitor de ofertas en tiempo real</div>
+                <h1><i class="fas fa-chart-line"></i> MejorPrecio</h1>
+                <p class="subtitle">Compara precios de hardware entre PreciosGamer y HardGamers</p>
             </div>
         </header>
 
@@ -164,6 +190,22 @@
             <i class="fas fa-exclamation-circle"></i>
             <span id="errorText"></span>
         </div>
+
+        <footer class="source-disclaimer glass-card">
+            <h2>Fuente de precios y derechos</h2>
+            <p>
+                Los precios y resultados mostrados en este sitio son extraidos desde
+                <a href="https://preciosgamer.com/" target="_blank" rel="noopener noreferrer">PreciosGamer</a>
+                y
+                <a href="https://www.hardgamers.com.ar/" target="_blank" rel="noopener noreferrer">HardGamers</a>.
+                Todos los derechos sobre precios, catalogos y contenido corresponden a sus respectivas plataformas.
+            </p>
+            <p>
+                La finalidad de <strong>MejorPrecio</strong> es educativa y de productividad: facilitar una busqueda
+                unificada entre dos motores similares. Los resultados pueden no ser identicos en cobertura y orden, y no
+                se garantiza coincidencia del 100% entre ambas fuentes.
+            </p>
+        </footer>
     </div>
 
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>

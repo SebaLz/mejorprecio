@@ -1,11 +1,21 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, Response
 from scraper import OfertasScraper
 import re
+import os
+from urllib.parse import urljoin
+from datetime import date
 from price_history import create_history_service, product_fingerprint
 
 app = Flask(__name__)
 scraper = OfertasScraper()
 history_service = create_history_service()
+
+
+def get_base_url():
+    configured = os.getenv('SITE_URL', '').strip()
+    if configured:
+        return configured.rstrip('/')
+    return request.host_url.rstrip('/')
 
 def normalizar_texto(texto):
     """Normaliza un texto para comparación: lowercase, sin espacios extra, sin caracteres especiales"""
@@ -118,7 +128,48 @@ def aplicar_cambios_de_historial(resultados, cambios):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    base_url = get_base_url()
+    page_title = "MejorPrecio | Compara precios de hardware"
+    page_description = (
+        "Compara precios de componentes de PC en PreciosGamer y HardGamers, "
+        "con historial de precios y alertas de bajadas."
+    )
+    canonical_url = f"{base_url}/"
+    og_image = urljoin(f"{base_url}/", "static/og-image.svg")
+    structured_data = [
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "MejorPrecio",
+            "url": canonical_url,
+            "description": page_description,
+            "inLanguage": "es-AR",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": f"{canonical_url}?q={{search_term_string}}",
+                "query-input": "required name=search_term_string",
+            },
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            "name": "MejorPrecio",
+            "applicationCategory": "ShoppingApplication",
+            "operatingSystem": "Web",
+            "url": canonical_url,
+            "description": page_description,
+            "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+        },
+    ]
+    return render_template(
+        'index.html',
+        page_title=page_title,
+        page_description=page_description,
+        canonical_url=canonical_url,
+        site_name='MejorPrecio',
+        og_image=og_image,
+        structured_data=structured_data,
+    )
 
 @app.route('/buscar', methods=['POST'])
 def buscar():
@@ -170,6 +221,45 @@ def historial():
         return jsonify(data)
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
+
+@app.route('/robots.txt', methods=['GET'])
+def robots():
+    base_url = get_base_url()
+    body = (
+        "User-agent: *\n"
+        "Allow: /\n"
+        "Disallow: /buscar\n"
+        "Disallow: /historial\n"
+        f"Sitemap: {base_url}/sitemap.xml\n"
+    )
+    return Response(body, mimetype='text/plain')
+
+
+@app.route('/sitemap.xml', methods=['GET'])
+def sitemap():
+    base_url = get_base_url()
+    today = date.today().isoformat()
+    urls = [
+        f"{base_url}/",
+    ]
+    xml_items = []
+    for url in urls:
+        xml_items.append(
+            "<url>"
+            f"<loc>{url}</loc>"
+            f"<lastmod>{today}</lastmod>"
+            "<changefreq>daily</changefreq>"
+            "<priority>1.0</priority>"
+            "</url>"
+        )
+    xml = (
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+        "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">"
+        f"{''.join(xml_items)}"
+        "</urlset>"
+    )
+    return Response(xml, mimetype='application/xml')
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
