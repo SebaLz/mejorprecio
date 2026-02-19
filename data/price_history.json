@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-02-19T01:28:08.866515+00:00",
+  "updated_at": "2026-02-19T01:28:18.762776+00:00",
   "products": {
     "8d3080116cc72b5ab1caeac845e69f7e0fb4396f": {
       "id": "8d3080116cc72b5ab1caeac845e69f7e0fb4396f",
@@ -19,9 +19,14 @@
           "captured_at": "2026-02-18T04:28:42.846556+00:00",
           "precio": 2640400.0,
           "query": "rtx 5080"
+        },
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2640400.0,
+          "query": "rtx 5080"
         }
       ],
-      "last_seen_at": "2026-02-18T04:28:42.846556+00:00"
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
     },
     "84edd0c3c1363b07590244bfaf7b963022481eb4": {
       "id": "84edd0c3c1363b07590244bfaf7b963022481eb4",
@@ -40,9 +45,14 @@
           "captured_at": "2026-02-18T04:28:42.846556+00:00",
           "precio": 2754270.0,
           "query": "rtx 5080"
+        },
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2754270.0,
+          "query": "rtx 5080"
         }
       ],
-      "last_seen_at": "2026-02-18T04:28:42.846556+00:00"
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
     },
     "8e87bc32e58fe2c28e3ef9a7a27ca2c35c05f4b8": {
       "id": "8e87bc32e58fe2c28e3ef9a7a27ca2c35c05f4b8",
@@ -61,9 +71,14 @@
           "captured_at": "2026-02-18T04:28:42.846556+00:00",
           "precio": 2801461.0,
           "query": "rtx 5080"
+        },
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2801461.0,
+          "query": "rtx 5080"
         }
       ],
-      "last_seen_at": "2026-02-18T04:28:42.846556+00:00"
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
     },
     "7421eddff3eb8c0b2d19e05a2c6779d7ce2a6b99": {
       "id": "7421eddff3eb8c0b2d19e05a2c6779d7ce2a6b99",
@@ -82,9 +97,14 @@
           "captured_at": "2026-02-18T04:28:42.846556+00:00",
           "precio": 2831900.0,
           "query": "rtx 5080"
+        },
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2831900.0,
+          "query": "rtx 5080"
         }
       ],
-      "last_seen_at": "2026-02-18T04:28:42.846556+00:00"
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
     },
     "c42863fa9241be29864bf0736190c2d7f8765317": {
       "id": "c42863fa9241be29864bf0736190c2d7f8765317",
@@ -103,9 +123,14 @@
           "captured_at": "2026-02-18T04:28:42.846556+00:00",
           "precio": 2832600.0,
           "query": "rtx 5080"
+        },
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2753100.0,
+          "query": "rtx 5080"
         }
       ],
-      "last_seen_at": "2026-02-18T04:28:42.846556+00:00"
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
     },
     "30fd7103d386ce2b51de8a69156ba707d14d7e29": {
       "id": "30fd7103d386ce2b51de8a69156ba707d14d7e29",
@@ -124,9 +149,14 @@
           "captured_at": "2026-02-18T04:28:42.846556+00:00",
           "precio": 2849120.0,
           "query": "rtx 5080"
+        },
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2848850.0,
+          "query": "rtx 5080"
         }
       ],
-      "last_seen_at": "2026-02-18T04:28:42.846556+00:00"
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
     },
     "7d16b540454fe4c27c94c36d6785c5315255c361": {
       "id": "7d16b540454fe4c27c94c36d6785c5315255c361",
@@ -145,9 +175,14 @@
           "captured_at": "2026-02-18T04:28:42.846556+00:00",
           "precio": 2878000.0,
           "query": "rtx 5080"
+        },
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2838000.0,
+          "query": "rtx 5080"
         }
       ],
-      "last_seen_at": "2026-02-18T04:28:42.846556+00:00"
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
     },
     "15df5782fc02492375e9dde51ab88122544308d6": {
       "id": "15df5782fc02492375e9dde51ab88122544308d6",
@@ -166,9 +201,14 @@
           "captured_at": "2026-02-18T04:28:42.846556+00:00",
           "precio": 2881904.0,
           "query": "rtx 5080"
+        },
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2881904.0,
+          "query": "rtx 5080"
         }
       ],
-      "last_seen_at": "2026-02-18T04:28:42.846556+00:00"
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
     },
     "96ef39f8a5feb0c499f2108659f09202b4e6f6e7": {
       "id": "96ef39f8a5feb0c499f2108659f09202b4e6f6e7",
@@ -187,9 +227,14 @@
           "captured_at": "2026-02-18T04:28:42.846556+00:00",
           "precio": 2883064.0,
           "query": "rtx 5080"
+        },
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2883064.0,
+          "query": "rtx 5080"
         }
       ],
-      "last_seen_at": "2026-02-18T04:28:42.846556+00:00"
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
     },
     "12fa89a056268363a328c46da9161d5d329a7194": {
       "id": "12fa89a056268363a328c46da9161d5d329a7194",
@@ -208,9 +253,14 @@
           "captured_at": "2026-02-18T04:28:42.846556+00:00",
           "precio": 2886741.0,
           "query": "rtx 5080"
+        },
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2899418.0,
+          "query": "rtx 5080"
         }
       ],
-      "last_seen_at": "2026-02-18T04:28:42.846556+00:00"
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
     },
     "4c526f516fdacd0031552c9221a331eea3fa031d": {
       "id": "4c526f516fdacd0031552c9221a331eea3fa031d",
@@ -229,9 +279,14 @@
           "captured_at": "2026-02-18T04:28:42.846556+00:00",
           "precio": 2897458.0,
           "query": "rtx 5080"
+        },
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2897458.0,
+          "query": "rtx 5080"
         }
       ],
-      "last_seen_at": "2026-02-18T04:28:42.846556+00:00"
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
     },
     "b8b989e92436d07823f0e970de0cd808e9fb8371": {
       "id": "b8b989e92436d07823f0e970de0cd808e9fb8371",
@@ -250,9 +305,14 @@
           "captured_at": "2026-02-18T04:28:42.846556+00:00",
           "precio": 2911610.0,
           "query": "rtx 5080"
+        },
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2910500.0,
+          "query": "rtx 5080"
         }
       ],
-      "last_seen_at": "2026-02-18T04:28:42.846556+00:00"
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
     },
     "3137129d8fb02699e7c6ea439c54ad6029387119": {
       "id": "3137129d8fb02699e7c6ea439c54ad6029387119",
@@ -1568,6 +1628,134 @@
         }
       ],
       "last_seen_at": "2026-02-19T01:28:08.866515+00:00"
+    },
+    "dc1561b841748b222afa226fc045b2ad1e8d903d": {
+      "id": "dc1561b841748b222afa226fc045b2ad1e8d903d",
+      "nombre": "PLACA DE VIDEO PALIT GEFORCE RTX 5080 GAMINGPRO 16GB GDDR7 256BIT PCIE 5.0 ARGB + RE REQUIEM",
+      "tienda": "Logg",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-2014528161",
+      "imagen": "https://logg.api.cygnus.market/static/logg/Global/Placa_de_Video_Palit_GeForce_RTX_5080_GamingPro_16GB_GDDR7_256bit_PCIe_5.0_ARGB/52541b7128a54a6c85a4f9ff38dc321d.webp",
+      "history": [
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2479999.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
+    },
+    "4b4a7c971223b6fe982a9addc52556687bd8d3b5": {
+      "id": "4b4a7c971223b6fe982a9addc52556687bd8d3b5",
+      "nombre": "PLACA DE VIDEO PALIT NVIDIA GEFORCE RTX 5080 GAMING PRO 16GB...",
+      "tienda": "Venex",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-244142396",
+      "imagen": "https://www.venex.com.ar/products_images/thumb/1738786737_11.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2489990.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
+    },
+    "784b60a5b6e0e4697547451b178a6b684f7c00e4": {
+      "id": "784b60a5b6e0e4697547451b178a6b684f7c00e4",
+      "nombre": "PLACA DE VIDEO PALIT GEFORCE RTX 5080 GAMINGPRO OC 16GB GDDR7 256BIT PCIE 5.0 ARGB + RE REQUIEM",
+      "tienda": "Logg",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-1230371582",
+      "imagen": "https://logg.api.cygnus.market/static/logg/Global/Placa_de_Video_Palit_GeForce_RTX_5080_GamingPro_OC_16GB_GDDR7_256bit_PCIe_5.0_ARGB_RE_requiem/c93f58e4f0a7468d9e96bd9bfa31ad1d.webp",
+      "history": [
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2549999.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
+    },
+    "b45c2279cfa191b64585072734bc7472288d41e8": {
+      "id": "b45c2279cfa191b64585072734bc7472288d41e8",
+      "nombre": "PLACA DE VIDEO PALIT NVIDIA GEFORCE RTX 5080 GAMINGPRO OC 16GB...",
+      "tienda": "Venex",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1251516056",
+      "imagen": "https://www.venex.com.ar/products_images/thumb/1741617931_5.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2599999.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
+    },
+    "add17073e24fbf7b860e4279c2e152b7fb9df654": {
+      "id": "add17073e24fbf7b860e4279c2e152b7fb9df654",
+      "nombre": "PLACA DE VIDEO PALIT NVIDIA GEFORCE RTX 5080 GAMING PRO 16GB GDDR7 + RESIDENT EVIL REQUIEM BUNDLE",
+      "tienda": "Gezatek",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1926317107",
+      "imagen": "https://s3-sa-east-1.amazonaws.com/saasargentina/zerufSPWUxnMZmiyzp7w/miniatura",
+      "history": [
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2599999.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
+    },
+    "1a7f79d2dad74f2e3260afbad6f939f24b0fc645": {
+      "id": "1a7f79d2dad74f2e3260afbad6f939f24b0fc645",
+      "nombre": "PLACA DE VIDEO PALIT NVIDIA GEFORCE RTX 5080 GAMING PRO OC 16GB GDDR7 + RESIDENT EVIL REQUIEM BUNDLE",
+      "tienda": "Gezatek",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/117717612",
+      "imagen": "https://s3-sa-east-1.amazonaws.com/saasargentina/pMXy907csCCj4BfmFQiS/miniatura",
+      "history": [
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2699999.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
+    },
+    "b13cf0be06fa6b6b24ea5cf2a8c851225da827b9": {
+      "id": "b13cf0be06fa6b6b24ea5cf2a8c851225da827b9",
+      "nombre": "PLACA DE VIDEO MSI RTX 5080 16GB INSPIRE X3 OC GDDR7 NVIDA",
+      "tienda": "Gaming City",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/2107253753",
+      "imagen": "https://www.gamingcity.com.ar/images/imagen_15507.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2840500.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
+    },
+    "2a98c22bb9225b61050487cbe878a68d78ab3df1": {
+      "id": "2a98c22bb9225b61050487cbe878a68d78ab3df1",
+      "nombre": "PLACA DE VIDEO MSI NVIDIA GEFORCE RTX 5080 SHADOW 3X OC 16GB GDDR7 + RESIDENT EVIL REQUIEM BUNDLE",
+      "tienda": "Gezatek",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-729517017",
+      "imagen": "https://s3-sa-east-1.amazonaws.com/saasargentina/J5JjMXQSUekxJQHbC5Jw/miniatura",
+      "history": [
+        {
+          "captured_at": "2026-02-19T01:28:18.762776+00:00",
+          "precio": 2899999.0,
+          "query": "rtx 5080"
+        }
+      ],
+      "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
     }
   }
 }
