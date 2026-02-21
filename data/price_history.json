@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-02-19T01:29:41.970205+00:00",
+  "updated_at": "2026-02-21T07:21:01.834450+00:00",
   "products": {
     "8d3080116cc72b5ab1caeac845e69f7e0fb4396f": {
       "id": "8d3080116cc72b5ab1caeac845e69f7e0fb4396f",
@@ -843,9 +843,14 @@
           "captured_at": "2026-02-18T04:29:27.083862+00:00",
           "precio": 1843848.0,
           "query": "rtx 5070 ti"
+        },
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1811386.0,
+          "query": "rtx 5070 ti"
         }
       ],
-      "last_seen_at": "2026-02-18T04:29:27.083862+00:00"
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
     },
     "1cc84778a954884d821944410c243c1ab2c6b8e6": {
       "id": "1cc84778a954884d821944410c243c1ab2c6b8e6",
@@ -874,9 +879,14 @@
           "captured_at": "2026-02-19T01:29:41.970205+00:00",
           "precio": 1865207.0,
           "query": "rtx 5070 ti"
+        },
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1839355.0,
+          "query": "rtx 5070 ti"
         }
       ],
-      "last_seen_at": "2026-02-19T01:29:41.970205+00:00"
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
     },
     "0371f583cb9b18e6e4492d9de57de2f377334c07": {
       "id": "0371f583cb9b18e6e4492d9de57de2f377334c07",
@@ -900,9 +910,14 @@
           "captured_at": "2026-02-19T01:29:41.970205+00:00",
           "precio": 1862000.0,
           "query": "rtx 5070 ti"
+        },
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1862000.0,
+          "query": "rtx 5070 ti"
         }
       ],
-      "last_seen_at": "2026-02-19T01:29:41.970205+00:00"
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
     },
     "5bb014e4dea207dc39dad58ea469b73bf54cc9e8": {
       "id": "5bb014e4dea207dc39dad58ea469b73bf54cc9e8",
@@ -931,9 +946,14 @@
           "captured_at": "2026-02-19T01:29:41.970205+00:00",
           "precio": 1862000.0,
           "query": "rtx 5070 ti"
+        },
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1862000.0,
+          "query": "rtx 5070 ti"
         }
       ],
-      "last_seen_at": "2026-02-19T01:29:41.970205+00:00"
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
     },
     "6b2bdd53abeb63cdc9e2028e052d258be034f38d": {
       "id": "6b2bdd53abeb63cdc9e2028e052d258be034f38d",
@@ -993,9 +1013,14 @@
           "captured_at": "2026-02-19T01:29:41.970205+00:00",
           "precio": 1889145.0,
           "query": "rtx 5070 ti"
+        },
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1819176.0,
+          "query": "rtx 5070 ti"
         }
       ],
-      "last_seen_at": "2026-02-19T01:29:41.970205+00:00"
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
     },
     "2f54091a65c438486ffe9d294effb3c23e2f37b4": {
       "id": "2f54091a65c438486ffe9d294effb3c23e2f37b4",
@@ -1365,9 +1390,14 @@
           "captured_at": "2026-02-19T01:29:41.970205+00:00",
           "precio": 1473620.0,
           "query": "rtx 5070 ti"
+        },
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1422910.0,
+          "query": "rtx 5070 ti"
         }
       ],
-      "last_seen_at": "2026-02-19T01:29:41.970205+00:00"
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
     },
     "45da3d70135109f0cb773bdf396ca392f24ab99d": {
       "id": "45da3d70135109f0cb773bdf396ca392f24ab99d",
@@ -1391,9 +1421,14 @@
           "captured_at": "2026-02-19T01:29:41.970205+00:00",
           "precio": 1572860.0,
           "query": "rtx 5070 ti"
+        },
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1487470.0,
+          "query": "rtx 5070 ti"
         }
       ],
-      "last_seen_at": "2026-02-19T01:29:41.970205+00:00"
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
     },
     "90cda7aa8062a9cf42bc3e71dcedf2c65d4405ee": {
       "id": "90cda7aa8062a9cf42bc3e71dcedf2c65d4405ee",
@@ -1417,9 +1452,14 @@
           "captured_at": "2026-02-19T01:29:41.970205+00:00",
           "precio": 1789990.0,
           "query": "rtx 5070 ti"
+        },
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1789990.0,
+          "query": "rtx 5070 ti"
         }
       ],
-      "last_seen_at": "2026-02-19T01:29:41.970205+00:00"
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
     },
     "f9cd350cbf70e6d3f260fa8123a607bf3c25dccc": {
       "id": "f9cd350cbf70e6d3f260fa8123a607bf3c25dccc",
@@ -1547,9 +1587,14 @@
           "captured_at": "2026-02-19T01:29:41.970205+00:00",
           "precio": 1870820.0,
           "query": "rtx 5070 ti"
+        },
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1844890.0,
+          "query": "rtx 5070 ti"
         }
       ],
-      "last_seen_at": "2026-02-19T01:29:41.970205+00:00"
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
     },
     "283d8282c0c5fb312daae281608b38250e9b1702": {
       "id": "283d8282c0c5fb312daae281608b38250e9b1702",
@@ -1625,9 +1670,14 @@
           "captured_at": "2026-02-19T01:29:41.970205+00:00",
           "precio": 1894830.0,
           "query": "rtx 5070 ti"
+        },
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1824650.0,
+          "query": "rtx 5070 ti"
         }
       ],
-      "last_seen_at": "2026-02-19T01:29:41.970205+00:00"
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
     },
     "6d5f3084bde902b04b226e18560467eee814532b": {
       "id": "6d5f3084bde902b04b226e18560467eee814532b",
@@ -1678,9 +1728,14 @@
           "captured_at": "2026-02-19T01:29:41.970205+00:00",
           "precio": 1924070.0,
           "query": "rtx 5070 ti"
+        },
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1849624.0,
+          "query": "rtx 5070 ti"
         }
       ],
-      "last_seen_at": "2026-02-19T01:29:41.970205+00:00"
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
     },
     "124185c469586893ece89646734ab8398343c414": {
       "id": "124185c469586893ece89646734ab8398343c414",
@@ -1699,9 +1754,14 @@
           "captured_at": "2026-02-19T01:29:41.970205+00:00",
           "precio": 1929860.0,
           "query": "rtx 5070 ti"
+        },
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1855190.0,
+          "query": "rtx 5070 ti"
         }
       ],
-      "last_seen_at": "2026-02-19T01:29:41.970205+00:00"
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
     },
     "c850060808688551b56fcffc5d731c09fc56f6d1": {
       "id": "c850060808688551b56fcffc5d731c09fc56f6d1",
@@ -1851,6 +1911,134 @@
         }
       ],
       "last_seen_at": "2026-02-19T01:28:18.762776+00:00"
+    },
+    "87ecd05de02609960e1b565f5e690de63ee96811": {
+      "id": "87ecd05de02609960e1b565f5e690de63ee96811",
+      "nombre": "PLACA DE PLACA DE VIDEO GEFORCE RTX 5070 12GB MSI VANGUARD SOC LAUNCH EDITION",
+      "tienda": "Full H4rd",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1621829388",
+      "imagen": "https://www.fullh4rd.com.ar/img/productos/3/placa-de-video-geforce-rtx-5070-12gb-msi-vanguard-soc-launch-edition-0.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1476125.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
+    },
+    "b1ac6aa41cb9e2d219cce697901f21fdbe74f757": {
+      "id": "b1ac6aa41cb9e2d219cce697901f21fdbe74f757",
+      "nombre": "PLACA DE VIDEO GEFORCE RTX 5070 12GB MSI VANGUARD SOC LAUNCH EDITION",
+      "tienda": "Xt-PC",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1589789993",
+      "imagen": "https://xt-pc.com.ar/img/productos/3/VGA2976.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1476125.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
+    },
+    "3ab95680a789d711e5ae4684c48f95663f2db6be": {
+      "id": "3ab95680a789d711e5ae4684c48f95663f2db6be",
+      "nombre": "PLACA DE PLACA DE VIDEO GEFORCE RTX 5070 TI 16GB MSI VENTUS 3X OC",
+      "tienda": "Full H4rd",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/1621152844",
+      "imagen": "https://www.fullh4rd.com.ar/img/productos/3/placa-de-video-geforce-rtx-5070-ti-16gb-msi-ventus-3x-oc-0.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1725960.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
+    },
+    "ce889311e304234eb9ad6a49ac49b8a382eddc54": {
+      "id": "ce889311e304234eb9ad6a49ac49b8a382eddc54",
+      "nombre": "PLACA DE VIDEO GEFORCE RTX 5070 TI 16GB MSI VENTUS 3X OC",
+      "tienda": "Xt-PC",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-270528848",
+      "imagen": "https://xt-pc.com.ar/img/productos/3/VGA2844.jpg",
+      "history": [
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1725960.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
+    },
+    "68a776ee7caa6ff333cdce9b4bd3125d70e8deb0": {
+      "id": "68a776ee7caa6ff333cdce9b4bd3125d70e8deb0",
+      "nombre": "PLACA DE VIDEO PALIT NVIDIA GEFORCE RTX 5070 TI GAMING PRO S 16GB GDDR7 + RESIDENT EVIL REQUIEM BUNDLE",
+      "tienda": "Gezatek",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/-1057034121",
+      "imagen": "https://s3-sa-east-1.amazonaws.com/saasargentina/ViyYH5WfGTPHFTmcvDSY/miniatura",
+      "history": [
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1849999.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
+    },
+    "25d4e378b0185d456e31f88b68c1947e019fb6cf": {
+      "id": "25d4e378b0185d456e31f88b68c1947e019fb6cf",
+      "nombre": "PLACA DE VIDEO GIGABYTE RTX 5070TI EAGLE ICE 16GB",
+      "tienda": "AuraGamer",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/78171050",
+      "imagen": "https://i2.wp.com/static.nb.com.ar/i/nb_PLACA-DE-VIDEO-GIGABYTE-RTX-5070TI-EAGLE-OC-ICE-16GB_export_64af49d371091352e5037fba3bc63094.png?ssl=1",
+      "history": [
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1858222.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
+    },
+    "66adc3b3d7a3def11c6689d691480a9cfe949c9f": {
+      "id": "66adc3b3d7a3def11c6689d691480a9cfe949c9f",
+      "nombre": "PLACA DE VIDEO GIGABYTE RTX 5070TI EAGLE OC ICE 16GB",
+      "tienda": "The Gamer Shop",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/236534461",
+      "imagen": "https://static.nb.com.ar/i/nb_PLACA-DE-VIDEO-GIGABYTE-RTX-5070TI-EAGLE-OC-ICE-16GB_export_64af49d371091352e5037fba3bc63094.png",
+      "history": [
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1875589.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
+    },
+    "44742fd0db955b688ee52b14c38b18ad9991a485": {
+      "id": "44742fd0db955b688ee52b14c38b18ad9991a485",
+      "nombre": "PLACA DE VIDEO GIGABYTE RTX 5070TI EAGLE ICE 16GB",
+      "tienda": "Crosshair Gaming",
+      "fuente": "HardGamers",
+      "link": "https://www.hardgamers.com.ar/product/791633465",
+      "imagen": "https://static.nb.com.ar/i/nb_PLACA-DE-VIDEO-GIGABYTE-RTX-5070TI-EAGLE-OC-ICE-16GB_ver_64af49d371091352e5037fba3bc63094.png",
+      "history": [
+        {
+          "captured_at": "2026-02-21T07:21:01.834450+00:00",
+          "precio": 1879757.0,
+          "query": "rtx 5070 ti"
+        }
+      ],
+      "last_seen_at": "2026-02-21T07:21:01.834450+00:00"
     }
   }
 }
